@@ -1,0 +1,64 @@
+/**
+Theme Name: Simpl Vintage
+Author: Syed
+Author URI: http://monsite.com
+Description: Theme pour Simpl Vintage basé sur Astra
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: simpl-vintage
+Template: astra
+*/
+/***********************************/
+/*PLANTY*/
+.rounded-bottom {
+  border-radius: 0 0 10% 10%;
+}
+
+#les-gouts figure {
+  position: relative;
+  width:100%;
+  max-width:393px;
+  /*margin:0!important;*/
+}
+
+#les-gouts figure img{
+    width:100%;
+    height: 263px;
+    object-fit:cover;
+  }
+
+#les-gouts figcaption {
+  font-family: "Syne";
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+/*Menu*/
+.commander {
+    background: #e2a1a0;
+}
+.commander:hover {
+    background: #c02e44;
+}
+
+.ast-builder-menu-1 .menu-item.commander > .menu-link{
+    color: white
+}
+
+/****************************/
+
+/*Ajouter Le devant les dates */
+.posted-on::before {
+  content: "Le ";
+}
+
+/*Ajuster le footer*/
+.site-footer-primary-section-1.site-footer-section.site-footer-section-1 {
+  justify-content: end;
+}
