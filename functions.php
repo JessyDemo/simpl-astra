@@ -26,3 +26,7 @@ add_action( 'wp_enqueue_scripts', 'child_enqueue_styles', 15 );
 
 
 /* Ajouter un onglet au menu principal pour les utilisateur connectés UNIQUEMENT*/
+
+function add_menu_item_for_loggedin_users(){
+	
+}
